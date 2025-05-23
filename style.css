@@ -2,7 +2,7 @@
     --primary-color: #2c3e50;
     --secondary-color: #3498db;
     --text-emphasis: #566573;
-    --link-hover: #21618C;
+    --link-color: #21618C;
     --light-grey: #f8f9fa;
 }
 
@@ -68,13 +68,13 @@ li {
 }
 
 a {
-    color: var(--secondary-color);
+    color: var(--link-color);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: var(--link-hover);
+    color: var(--secondary-color);
     text-decoration: underline;
 }
 
