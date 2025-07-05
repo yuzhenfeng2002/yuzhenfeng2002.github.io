@@ -95,3 +95,9 @@ em:hover {
     color: var(--secondary-color);
     cursor: pointer;
 }
+
+.map-container {
+  align-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
